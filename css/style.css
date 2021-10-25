@@ -1,3 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-content {
+    text-align: center;
+    background-color: #122d3b;
+}
+
+h1 {
+    margin: 20px 0;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
 #container {
-    background-color: aliceblue;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3075a3;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fizz {
+    background-color: #4fd08f;
+}
+
+.buzz {
+    background-color: #f4c853;
+}
+
+.fizzBuzz {
+    background-color: #e52c5c;
 }
